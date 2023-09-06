@@ -1,0 +1,38 @@
+@media screen and (min-width: 420px) and (max-width: 767px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    section {
+        width: 45%;
+    }
+
+}
+
+@media screen and (min-width: 767px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    section {
+        width: 23%;
+    }
+
+}
+
+
+
+@media print {
+    body {
+        background-color: blue;
+
+    }
+}
+
+img {
+    width: 100%;
+}
